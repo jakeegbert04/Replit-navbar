@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.main-container {
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   align-content: center;
+   position: fixed;
+   top:0;
+   left: 0;
+   right: 5;
+   padding: 7px;
+   width: 100%;
+   background-color: rgb(13 21 37);
+}
+
+
+.icon {
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-content:space-between;
+  /* border: 1px solid blue; */
+  flex-direction: row;
+  padding:3px;
+  margin: 3px;
+}
+
+.icon a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+.main-container > .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.icon:nth-child(3) {
+  display:flex;
+  justify-content: center;
+}
+.icon:nth-child(3):hover {
+  border: 1px solid gray;
+}
+
+.main-container > .middle {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color:green;
+  padding: 5px;
+
+}
+
+.main-container > .middle:hover {
+  border: 1px solid #000ee0;
+  background-color: rgb(0 205 42);
+}
+
+.main-container > .right {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items:flex-end;
+
+}
+
+.main-container > .right >div:first-child:hover {
+  border: 1px solid gray;
+  filter: brightness(135%);
+}
+
+.main-container > .right >div:nth-child(2) {
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: rgb(34 46 65);
+  
+
+}
+
+.main-container > .right > div:nth-child(2):hover {
+  filter: brightness(135%);
+}
