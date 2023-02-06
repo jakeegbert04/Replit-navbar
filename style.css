@@ -1,7 +1,9 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin:0;
   background-color: black;
+  font-family: 'Lato', sans-serif;
 }
 
 .main-container {
@@ -11,8 +13,6 @@ html, body {
    align-items: center;
    align-content: center;
    position: fixed;
-   top:0;
-   left: 0;
    right: 5;
    padding: 7px;
    width: 100%;
